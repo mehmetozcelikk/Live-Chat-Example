@@ -1,0 +1,96 @@
+﻿@model Entities.ViewModel.MessageDTO
+@{
+    Layout = null;
+    ViewData["Title"] = "HomePage";
+    var userName = User.Identity.Name;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/microsoft-signalr/signalr.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+
+    <form asp-action="Create" asp-controller="Home" method="post" id="frmLogin" data-ajax-success="OnSuccess" data-ajax="true">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group">
+            <input name="Text" class="form-control" id="messageText" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send" id="submitButton" />
+        </div>
+        <input type="hidden" value="@userName" name="username" />
+
+    </form>
+    <input type="text" id="txtMessage" />
+    <button id="btnGonder">Gonder</button>
+    <div></div>
+</body>
+</html>
+
+<script type="text/javascript">
+
+
+    function onRegister() {
+
+       window.location.href = "@Url.Action("Register", "Login")";
+
+    }
+
+  @*var OnSuccess = function (response) {
+      alert("Success: " + response.success + " Your Message:" + response.message +"You are being redirected...");
+                     window.location.href = "@Url.Action("HomePage", "Home")";
+
+    };*@
+
+    //$(document).ready(() => {
+
+    //    var connection = new signalR.HubConnectionBuilder()
+    //        .withUrl('Home/HomePage')
+    //        .build();
+    //let addMessageToChat = $("#messageText").val();
+
+    //    connection.on('receiveMessage', addMessageToChat);
+    //    connection.start()
+    //        .catch(error => {
+    //            console.error(error.message)
+    //        });
+
+    //    function sendMessageToHub(message) {
+    //        connection.invoke('sendMessage', message)
+
+    //    }
+    //});
+
+
+    $(document).ready(() => {
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl("https://localhost:44327/myhub")
+            .build();
+
+        connection.start();
+
+        $("button").click(() => {
+            let message = $("#txtMessage").val();
+            connection.invoke("SendMessageAsync", message)
+                .catch(error => console.log("Mesaj gönderilirken hata alınmıştır."));
+        });
+
+        connection.on("receiveMessage", message => {
+            $("#messages").append(`${message}<br>`);
+        });
+
+    });
+
+
+</script>
+

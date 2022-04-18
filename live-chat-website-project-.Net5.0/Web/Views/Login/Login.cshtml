@@ -1,0 +1,49 @@
+﻿@model Entities.ViewModel.ApplicationUserDTO
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+
+    <form asp-action="Login" asp-controller="Login" method="post" id="frmLogin" data-ajax-success="OnSuccess" data-ajax="true">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <label asp-for="Email" class="form-label">E-Mail:</label>
+            <input asp-for="Email" class="form-control" type="text" placeholder="E-Mail">
+            <span asp-validation-for="Email" class="text-danger"></span>
+            <label asp-for="Password" class="form-label">Password:</label>
+            <input asp-for="Password" class="form-control" type="text" placeholder="Password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        <button>Login</button>
+    </form>
+</body>
+</html>
+<button onclick="onRegister()">Register</button>
+
+<script type="text/javascript">
+
+
+    function onRegister() {
+
+       window.location.href = "@Url.Action("Register", "Login")";
+
+    }
+
+  var OnSuccess = function (response) {
+      alert("Success: " + response.success + " Your Message:" + response.message +"You are being redirected...");
+                     window.location.href = "@Url.Action("HomePage", "Home")";
+
+    };
+</script>
+

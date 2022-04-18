@@ -1,0 +1,142 @@
+﻿@model Entities.ViewModel.ApplicationUserDTO
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+</head>
+<body>
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+
+            <form asp-action="Register" asp-controller="Login" method="post" id="frmRegister" data-ajax-success="OnSuccess" data-ajax="true">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label class="col-md-4 control-label">Country Name</label>
+                        <select class="form-control" id="Countryyy"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label class="col-md-4 control-label">City Name</label>
+                        <select asp-for="CityId" id="CityId" class="form-control"></select>
+                        <span asp-validation-for="CityId"></span>
+                    </div>
+                </div>
+                <button>Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+</body>
+</html>
+
+<button onclick="onLogin()">Login</button>
+
+<script type="text/javascript">
+
+  var OnSuccess = function (response) {
+      alert("Success: " + response.success + " Your Message:" + response.message +"You are being redirected...");
+                     window.location.href = "@Url.Action("Login", "Login")";
+
+    };
+
+    function onLogin() {
+
+       window.location.href = "@Url.Action("Login", "Login")";
+
+    }
+
+
+
+    var Countryyy = $('#Countryyy');                    
+    Countryyy.append($("<option></option>").val('').html('Please Select Country'));
+    $.ajax({
+        url: "@Url.Action("GetCountry", "Login")",
+        type: 'GET',
+        dataType: 'json',
+        success: function (d) {
+            $.each(d, function (i, country) {
+                Countryyy.append($("<option></option>").val(country.id).html(country.countries));
+            });
+        },
+        error: function () {
+            alert('Error!');
+        }
+    });
+
+
+
+
+    $("#Countryyy").change(function () {                                 
+        var CountryId = parseInt($(this).val());
+
+        if (!isNaN(CountryId)) {
+            var CityId = $('#CityId');
+            CityId.empty();
+            CityId.append($("<option></option>").val('').html('Please wait ...'));
+
+            $.ajax({
+                url: "@Url.Action("GetCity", "Login")",
+                type: 'GET',
+                dataType: 'json',
+                data: { Id: CountryId },
+                success: function (d) {
+
+                    CityId.empty();
+                    CityId.append($("<option></option>").val('').html('Select City '));
+                    $.each(d, function (i, item) {
+                        CityId.append($("<option></option>").val(item.id).html(item.cities));
+                    });
+                },
+                error: function () {
+                    alert('Error!');
+                }
+            });
+        }
+
+
+    });
+
+</script>
