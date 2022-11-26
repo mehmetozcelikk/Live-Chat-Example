@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KFryeZ0hHw1VkQ+nJJYNT2FkZge1ZxEsVysYN948dDiam76xXz0BxhhUryCCz8iGNshbRexY7dWR59lrQ7ayFQ==",
+  "dgSpecHash": "CmXe2frQxt8CcwByPe+ulkDpPerMfyXvovBxyVVedJE8RcWkzAU+qFqzKQdlV7dcR51T8FbCG8kWPSK2yfnMFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehme\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

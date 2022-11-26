@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
         "projectName": "Bussiness",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
               }
             }
           }
@@ -86,7 +86,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,18 +96,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
               }
             }
           }
@@ -172,7 +173,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -181,18 +183,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -246,7 +248,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -255,18 +258,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -287,8 +290,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
-                "projectPath": "C:\\Users\\mehme\\source\\repos\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
+              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
               }
             }
           }
@@ -346,7 +349,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -358,7 +362,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
