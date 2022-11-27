@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/UmfreGy1KK+GFVZZMW87M+/KRp8jLF2xZaF2KTiyBpqnc7uBxibLqnhmVqtb3pemif50LcTXUZ0eBXHNEYKkA==",
+  "dgSpecHash": "oV04709LTIMq49SrbgiY1B0vnV0zPF2dL3mxfFo7zf9R4rB+g5kvNSubt+Y2xCPzVau30k1Hv0kFQKPhVcwNkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
@@ -39,6 +39,8 @@
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\npgsql\\5.0.0\\npgsql.5.0.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.0\\npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -79,6 +81,7 @@
     "C:\\Users\\mehme\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

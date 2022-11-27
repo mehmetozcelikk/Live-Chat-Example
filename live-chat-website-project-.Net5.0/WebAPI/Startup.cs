@@ -53,6 +53,7 @@ namespace WebAPI
 
             services.AddDbContext<DataAccess.Concrete.EntityFramework.DataContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MyDatabase")));
+            //options.UseNpgsql(Configuration.GetConnectionString("MyDatabase")));
 
 
             #region Bussiness Scoped

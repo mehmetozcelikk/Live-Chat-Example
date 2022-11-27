@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iQ67JcIFdOQaq+JTU6tIGqB65qyZnOEDciPunIsNujTlIp7VbURjzbUYR/2BBg/eAwso22gYP1yGszSEKUYlA==",
+  "dgSpecHash": "iacv3VktBcwwpIOQpI1An6ZLxyOLOP3+cFBen9tTe74HgMWlUIBbVXtCgera+Q/P7hlRSOoFniOch32S+T6hWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehme\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -80,6 +80,8 @@
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\npgsql\\5.0.0\\npgsql.5.0.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.0\\npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\restsharp\\106.6.2\\restsharp.106.6.2.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",

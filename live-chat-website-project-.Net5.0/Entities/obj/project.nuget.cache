@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r/B6iFgvpe1nJc6dahtHPuTkuzkL2z87H0oQbjy1gFwEKnRx6Xqmt3JKJD2WMBabZbo8oLizh7/r8TYBCa0MPQ==",
+  "dgSpecHash": "iNSd6QdV7vOGpkPgEXUXB0hH8mDNwzn2LgmievpAo5OpHR56nZ3VfL8HkG6PrX4teuAfxJxNBeBJah+UsKMSXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mehme\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.0\\microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",

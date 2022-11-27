@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness", "Bussiness\Bussiness.csproj", "{0CB856FB-E54E-4C51-9C45-60A2A91802FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bussiness", "Bussiness\Bussiness.csproj", "{0CB856FB-E54E-4C51-9C45-60A2A91802FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{4E1DD0E1-9438-4CA7-AA3E-1E70566B5C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{4E1DD0E1-9438-4CA7-AA3E-1E70566B5C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{BE7B0A77-6874-4892-B0CC-470DEC1846CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{BE7B0A77-6874-4892-B0CC-470DEC1846CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{35449BA9-9122-4653-9FD5-5C6497A2CB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{35449BA9-9122-4653-9FD5-5C6497A2CB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{90677913-5776-43D1-8C9D-D68C33C3FF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{90677913-5776-43D1-8C9D-D68C33C3FF57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

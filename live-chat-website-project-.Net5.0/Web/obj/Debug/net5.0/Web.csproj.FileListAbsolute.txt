@@ -181,11 +181,6 @@ C:\Users\mehme\source\repos\live-chat-website-project-.Net5.0\Web\bin\Debug\net5
 C:\Users\mehme\source\repos\live-chat-website-project-.Net5.0\Web\obj\Debug\net5.0\Razor\Views\Home\HomePage.cshtml.g.cs
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\appsettings.json
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.deps.json
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.runtimeconfig.json
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.runtimeconfig.dev.json
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.StaticWebAssets.xml
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.exe
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\libman.json
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Web.StaticWebAssets.xml
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Web.exe
@@ -326,9 +321,7 @@ C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Bussiness.dll
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\DataAccess.dll
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Entities.dll
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.dll
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Bussiness.pdb
-C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\WebAPI.pdb
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\DataAccess.pdb
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Entities.pdb
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\obj\Debug\net5.0\Web.csproj.AssemblyReference.cache
@@ -366,3 +359,5 @@ C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\obj\Debug\net5.0\Web.pdb
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\obj\Debug\net5.0\ref\Web.dll
+C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Npgsql.dll
+C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\Web\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

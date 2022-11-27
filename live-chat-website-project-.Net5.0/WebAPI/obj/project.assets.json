@@ -1691,6 +1691,37 @@
           }
         }
       },
+      "Npgsql/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
+        },
+        "compile": {
+          "lib/net5.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
+          "Npgsql": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
       "RestSharp/106.6.2": {
         "type": "package",
         "compile": {
@@ -3017,7 +3048,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0"
         },
         "compile": {
           "bin/placeholder/DataAccess.dll": {}
@@ -4794,6 +4826,39 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "Npgsql/5.0.0": {
+      "sha512": "kLhzs5OVkljEO6eTSnhaYxY+Cej1hcS7cOb4gP7gylKc5CMMTfmsGGdUW7Ooj5XjeWgx67h9/bj67XjBBlBPxg==",
+      "type": "package",
+      "path": "npgsql/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.5.0.0.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.0": {
+      "sha512": "SGLNTyrC9kuCbrYG2kFZGhOE/sq+EekxgpvRlnJIDQ4kriQrtT2pkrI9Wuox8Wsa2Jvf9bHqbQ9pTKyXpx6BiQ==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
       ]
     },
     "RestSharp/106.6.2": {
@@ -8530,7 +8595,8 @@
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -8540,11 +8606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8565,8 +8631,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
-              "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
+            "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
+              "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
             }
           }
         }
@@ -8614,6 +8680,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[5.0.0, )"
           }

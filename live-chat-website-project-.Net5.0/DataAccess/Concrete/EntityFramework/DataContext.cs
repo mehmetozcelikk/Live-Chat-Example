@@ -1,11 +1,14 @@
 ﻿using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 
 namespace DataAccess.Concrete.EntityFramework
 {
     public class DataContext : DbContext
     {
-        public DataContext()
+
+        public DataContext( )
         {
         }
         public DataContext(DbContextOptions<DataContext> options) : base(options)
@@ -17,7 +20,8 @@ namespace DataAccess.Concrete.EntityFramework
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; initial catalog=Database5;" );
+                optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; initial catalog=Database5;");
+                //optionsBuilder.UseNpgsql("User ID=postgres2;Password=123456;Host=localhost;Port=5432;Database=Database5;");
 
             }
         }

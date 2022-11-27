@@ -157,3 +157,5 @@ C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\WebAPI\obj\Debug\net5.0\WebAPI.pdb
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\WebAPI\obj\Debug\net5.0\WebAPI.genruntimeconfig.cache
 C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\WebAPI\obj\Debug\net5.0\ref\WebAPI.dll
+C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\WebAPI\bin\Debug\net5.0\Npgsql.dll
+C:\Users\mehme\Source\Repos\Live-Chat-Example2222\live-chat-website-project-.Net5.0\WebAPI\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

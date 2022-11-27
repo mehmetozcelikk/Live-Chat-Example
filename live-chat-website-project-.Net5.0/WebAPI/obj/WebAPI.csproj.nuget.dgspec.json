@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
+    "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
         "projectName": "Bussiness",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
+        "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
+              "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +128,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
+              "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj"
               }
             }
           }
@@ -165,6 +165,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -187,12 +191,12 @@
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
+    "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Entities\\obj\\",
         "projectStyle": "PackageReference",
@@ -262,14 +266,14 @@
         }
       }
     },
-    "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\mehme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -290,8 +294,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
-                "projectPath": "C:\\Users\\mehme\\Source\\Repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
+              "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "C:\\Users\\mehme\\source\\repos\\Live-Chat-Example2222\\live-chat-website-project-.Net5.0\\Bussiness\\Bussiness.csproj"
               }
             }
           }
@@ -339,6 +343,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.0, )"
             }
